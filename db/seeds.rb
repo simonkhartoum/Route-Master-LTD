@@ -6,13 +6,13 @@
 #   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
 #   Character.create(name: "Luke", movie: movies.first)
 
-# Owner.create([
-#   { name: 'Barry Allan', contact: 767453234 },
-#   { name: 'Jane Smith', contact:  723459865 },
-#   { name: 'Mike Johnson', contact: 765326795 },
-#   { name: 'Emily Brown', contact: 712569832 },
-#   { name: 'David Lee', contact: 719802254 },
-# ])
+Owner.create([
+  { name: 'Barry Allan', contact: 767453234 },
+  { name: 'Jane Smith', contact:  723459865 },
+  { name: 'Mike Johnson', contact: 765326795 },
+  { name: 'Emily Brown', contact: 712569832 },
+  { name: 'David Lee', contact: 719802254 },
+])
 
 Car.create([
   { number_plate: 'KCW 458E', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhO6qoJbfQ7EQ35gTQbjyS5YL4lCXoWOgiAg&usqp=CAU', owner_id: 1, driver_name: 'Jack Kadere', driver_contact: 756245987 },
