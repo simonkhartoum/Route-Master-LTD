@@ -24,6 +24,12 @@ class CarsController < ApplicationController
         end
     end
 
+    def destroy
+        car = find_car
+        car.destroy
+        head :no_content
+    end
+
     private
 
     def find_car
@@ -31,9 +37,9 @@ class CarsController < ApplicationController
     end
 
     def car_params
-        params.permit(:number_plate, :image, :owner_id,:driver_name,:driver_contact)
+        params.permit(:number_plate, :image, :owner_id,:driver_name,:driver_contact,:route)
     end
     def car_update_params
-        params.permit(:driver_name,:driver_contact)
+        params.permit(:driver_name)
     end
 end
