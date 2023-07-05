@@ -4,9 +4,10 @@ import HomePage from './components/HomePage'
 import CarImage from './components/CarImage';
 import CarFormTable from './components/CarFormTable';
 import NavBar from './components/NavBar';
+import FormTable from './components/Admin';
 function App  ()  {
   return (
-    <div>
+  <div>
   <BrowserRouter>
   <NavBar />
   <Routes>
@@ -16,7 +17,6 @@ function App  ()  {
   </Routes>
   </BrowserRouter>
   </div>
-   
   );
 };
 
