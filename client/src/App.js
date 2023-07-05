@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import HomePage from './components/HomePage'
 import CarImage from './components/CarImage';
-import CarFormTable from './components/CarFormTable';
+import FormTable from './components/Admin';
 
 const App = () => {
   return (
@@ -17,7 +17,7 @@ const App = () => {
               <Link to="/car">Car Image</Link>
             </li>
             <li>
-              <Link to="/form-table">New Car</Link>
+              <Link to="/FormTable">New Car</Link>
             </li>
           </ul>
         </nav>
@@ -25,7 +25,7 @@ const App = () => {
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/car" element={<CarImage />} />
-          <Route path="/form-table" element={<CarFormTable />} />
+          <Route path="/FormTable" element={<FormTable />} />
         </Routes>
       </div>
     </Router>
