@@ -13,6 +13,7 @@ function NavBar({ user, setUser }) {
   }
 
   return (
+    <div className='navv'>
     <nav>
       <ul>
         <li>
@@ -29,6 +30,7 @@ function NavBar({ user, setUser }) {
         </li>
       </ul>
     </nav>
+    </div>
   );
 }
 

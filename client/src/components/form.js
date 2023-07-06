@@ -120,6 +120,8 @@ const handleSubmit = (event) => {
           name="owner_id"
           value={formData.owner_id}
           onChange={handleInputChange}
+          min="1"
+          max="5"
           required
         />
       </label>
