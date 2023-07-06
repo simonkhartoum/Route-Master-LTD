@@ -1,6 +1,7 @@
+
 nav {
-    background-color: #333; /* Sets the background color of the nav */
-    padding: 20px; /* Adds padding around the nav */
+    background-color: #464040; 
+    padding: 20px;
   }
   
   ul {
@@ -19,11 +20,11 @@ nav {
   }
   
   a {
-    color: #fff; /* Sets the text color of the links */
-    text-decoration: none; /* Removes the underline from the links */
+    color: #fff; 
+    text-decoration: none;
   }
   
   a:hover {
-    color: #ff9900; /* Changes the text color on hover */
+    color: #ff9900;
   }
   
