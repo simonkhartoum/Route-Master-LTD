@@ -1,0 +1,9 @@
+body{
+    width: 100%;
+}
+.form-group{
+    margin-top: 10px;
+    width: 50%;
+    margin-left: 10px;
+    color: rgb(20, 36, 21);
+}

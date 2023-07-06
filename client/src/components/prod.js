@@ -1,4 +1,4 @@
-function TableRow({id,number_plate,driver_name,driver_contact,route,ondelete,updating}){
+function TableRow({id,owner_name,number_plate,driver_name,driver_contact,route,ondelete,updating}){
     function DeleteRow(){
         ondelete(id)
     }
@@ -12,7 +12,7 @@ function TableRow({id,number_plate,driver_name,driver_contact,route,ondelete,upd
         <>
          <tr key={id}>
               <td style={{width:"5%"}}>{id}</td>
-              {/* <td>{owner_name}</td> */}
+              <td>{owner_name}</td>
               <td>{number_plate}</td>
               <td>{driver_name}</td>
               <td>{driver_contact}</td>
@@ -32,4 +32,4 @@ function TableRow({id,number_plate,driver_name,driver_contact,route,ondelete,upd
         </>
     )
 }
-export default TableRow
+export default TableRow;
