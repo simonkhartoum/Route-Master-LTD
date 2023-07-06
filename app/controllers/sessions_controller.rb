@@ -10,12 +10,8 @@ class SessionsController < ApplicationController
       end
   
       def destroy
-        if session[:user_id]
           session.delete :user_id
           head :no_content
-        else
-          render json: { errors: ['Not authenticated'] }, status: :unauthorized
-        end
       end
   end
   
