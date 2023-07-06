@@ -4,18 +4,21 @@ import HomePage from './components/HomePage'
 import CarImage from './components/CarImage';
 import NavBar from './components/NavBar';
 import FormTable from './components/Admin';
-function App  ()  {
+
+import './App.css';
+
+function App() {
   return (
-  <div>
-  <BrowserRouter>
-  <NavBar />
-  <Routes>
-  <Route path="/" element={<HomePage />}></Route>
-  <Route path="/car" element={<CarImage />}></Route>
-  <Route path="/form-table" element={<FormTable />}></Route>
-  </Routes>
-  </BrowserRouter>
-  </div>
+    <div className="app-container">
+      <BrowserRouter>
+        <NavBar />
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/car" element={<CarImage />} />
+          <Route path="/form-table" element={<FormTable />} />
+        </Routes>
+      </BrowserRouter>
+    </div>
   );
 };
 

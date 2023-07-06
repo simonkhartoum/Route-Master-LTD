@@ -13,7 +13,7 @@ function TableRow({id,number_plate,driver_name,driver_contact,route,ondelete,upd
          <tr key={id}>
               <td style={{width:"5%"}}>{id}</td>
               {/* <td>{owner_name}</td> */}
-              <td>{number_plate}</td>
+              <td style= {{number_plate}}></td>
               <td>{driver_name}</td>
               <td>{driver_contact}</td>
               <td>{route}</td>
