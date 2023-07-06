@@ -1,0 +1,35 @@
+
+.card {
+    width: 240px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 5px 5px 5px 0;
+    text-align: center;
+  }
+  
+  .card h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-style: italic; 
+    color: rgb(14, 13, 13);
+  }
+  
+  .card p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 0;
+    font-style: italic; 
+    color: rgb(15, 13, 13);
+
+  }
+
+  .item-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start; 
+    margin-top: 20px;
+    margin-right: -5px; 
+  }
