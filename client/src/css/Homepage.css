@@ -1,3 +1,4 @@
+
  .pcards{ 
      margin: auto;
     max-width: 1000px;
@@ -6,9 +7,9 @@
     gap: 20px;
     font-family: sans-serif;
     font-size: larger;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
     position: relative;
-    margin-top: 15px;
+    margin-top: 20px;
   }
   .pcard{
     box-shadow: 0 0 3px rgb(0, 0, 0.1);
