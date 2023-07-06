@@ -6,8 +6,10 @@ import NavBar from './components/NavBar';
 import FormTable from './components/Admin';
 import './App.css';
 import Login from "./components/Login";
+import Footer from "./components/Footer";
 
 function App  ()  {
+ 
   const [user, setUser] = useState(null);
 
   useEffect(() => {
@@ -19,7 +21,7 @@ function App  ()  {
   }, []);
 
   if (!user) return <Login onLogin={setUser} />;
-  return (
+  return ( <>
   <div>
   <BrowserRouter>
   <NavBar user={user} setUser={setUser} />
@@ -30,8 +32,11 @@ function App  ()  {
   </Routes>
   </BrowserRouter>
   </div>
+   <Footer/>
+  </>
 
   );
+ 
 };
 
 export default App;
