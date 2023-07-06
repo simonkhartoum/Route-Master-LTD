@@ -30,4 +30,7 @@ nav {
   .navv{
     text-align: center;
   }
+  .logout-button {
+    margin-left: auto;
+  }
   
