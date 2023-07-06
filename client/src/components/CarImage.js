@@ -50,7 +50,7 @@ const CarImage = () => {
 
   return (
     <div>
-      <h1>Featured cars</h1>
+<div className='h5'><h1 style={{ backgroundColor: "rgb(13, 226, 155)", textAlign: "center" }}>ROUTE-MASTER-LTD</h1></div>
       <div className='item-container'>
         {cars.map((car) => (
           <div className='card' key={car.id}>

@@ -1,5 +1,5 @@
 .card {
-    width: 200px;
+    width: 240px;
     background-color: #fff;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -13,7 +13,7 @@
     font-weight: bold;
     margin-bottom: 10px;
     font-style: italic; /* Sets the font style to italic */
-    color: red; /* Sets the font color to red */
+    color: rgb(14, 13, 13); /* Sets the font color to red */
   }
   
   .card p {
@@ -21,19 +21,19 @@
     color: #666;
     margin-bottom: 0;
     font-style: italic; /* Sets the font style to italic */
-    color: red; /* Sets the font color to red */
+    color: rgb(15, 13, 13); /* Sets the font color to red */
 
   }
 
   .item-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-start; /* Adjust alignment as needed */
+    justify-content: flex-start; 
     margin-top: 20px;
-    margin-right: -5px; /* Compensate for the negative margin on .card */
+    margin-right: -5px; 
   }
   
-  .card {
+  /* .card {
     width:250px;
     background-color: #fff;
     border-radius: 5px;
@@ -41,6 +41,6 @@
     padding: 20px;
     margin: 10px;
     text-align: center;
-  }
+  } */
   
   

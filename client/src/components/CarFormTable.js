@@ -1,6 +1,6 @@
 import React from 'react';
 import TableRow from './prod';
-import './CarFormTable.css';
+// import '../css/CarFormTable.css';
 
 class Table extends React.Component {
   constructor(props) {
