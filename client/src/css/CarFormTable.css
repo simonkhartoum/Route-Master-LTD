@@ -1,0 +1,75 @@
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  /* .table thead th {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: left;
+    font-weight: bold;
+  } */
+  
+  .table tbody td {
+    padding: 10px;
+  }
+  
+  .table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+    
+  }
+  
+  .table tbody tr:hover {
+    background-color: #e0e0e0;
+    cursor: pointer;
+  }
+  
+  .table tbody tr td:last-child {
+    text-align: center;
+  }
+  
+  .delete-btn {
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .delete-btn:hover {
+    background-color: #ff3333;
+  }
+  
+  .update-input {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+ 
+  
+    .form-italic {
+    font-style: italic;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-weight: 300px;
+  }
+  
+  p {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #333;
+  }
+  
