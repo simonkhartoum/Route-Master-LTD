@@ -1,6 +1,6 @@
 .Box {
     padding: 50px  0px;
-    background-image: linear-gradient(rgb(74, 87, 74), rgb(0, 0, 0));
+    background-image: linear-gradient(rgb(59, 78, 59), rgb(0, 0, 0));
      bottom: 0px; 
      width: 100%;
     @media (max-width: 1000px) {
