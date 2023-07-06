@@ -1,5 +1,4 @@
 import React from 'react';
-import Footer from './Footer';
 import '../css/Homepage.css'
 
 const HomePage = () => {
@@ -55,7 +54,7 @@ const HomePage = () => {
         <header style={{fontSize: "40px"}}>ROUTE-MASTER-LTD</header>
       </div>
   </div>
-</div>)  ; <Footer/>
+</div>)  
 };
 
 export default HomePage;
