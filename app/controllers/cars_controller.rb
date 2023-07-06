@@ -1,7 +1,7 @@
 class CarsController < ApplicationController
     def index
         cars = Car.all
-        render json: cars
+        render json: cars, include: :owner
     end
 
     def create
@@ -40,6 +40,17 @@ class CarsController < ApplicationController
         params.permit(:number_plate, :image, :owner_id,:driver_name,:driver_contact,:route)
     end
     def car_update_params
-        params.permit(:driver_name)
+        params.permit(:driver_name,:route)
     end
 end
+
+
+
+
+
+
+
+
+
+
+

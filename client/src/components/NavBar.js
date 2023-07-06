@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import '../css/NavBar.css';
 
+
 const NavBar = () => {
   return (
     <nav>
@@ -10,10 +11,10 @@ const NavBar = () => {
           <Link to="/">Home</Link>
         </li>
         <li>
-          <Link to="/car">Car Image</Link>
+          <Link to="/car">Drivers</Link>
         </li>
         <li>
-          <Link to="/form-table">New Car</Link>
+          <Link to="/form-table">Admin</Link>
         </li>
       </ul>
     </nav>
@@ -21,3 +22,11 @@ const NavBar = () => {
 };
 
 export default NavBar;
+
+
+
+
+
+
+
+
