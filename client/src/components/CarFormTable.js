@@ -64,7 +64,7 @@ class Table extends React.Component {
         <thead>
           <tr>
             <th scope="col">ID</th>
-            {/* <th scope="col">Owner Name</th> */}
+            <th scope="col">Owner Name</th>
             <th scope="col">Number Plate</th>
             <th scope="col">Driver Name</th>
             <th scope="col">Driver Contact</th>
@@ -78,7 +78,7 @@ class Table extends React.Component {
             <TableRow
               key={car.id}
               id={car.id}
-              // owner_name={car.owner.name}
+              owner_name={car.owner.name}
               number_plate={car.number_plate}
               driver_name={car.driver_name}
               driver_contact={car.driver_contact}
@@ -94,3 +94,6 @@ class Table extends React.Component {
 }
 
 export default Table;
+
+
+

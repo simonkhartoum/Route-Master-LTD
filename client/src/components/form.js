@@ -75,7 +75,7 @@ const handleSubmit = (event) => {
     <form onSubmit={handleSubmit}>
       <div class="form-group">
       <label>
-        Image:
+       car Image:
         <input
           type="text"
           name="image"
@@ -88,7 +88,7 @@ const handleSubmit = (event) => {
       <br />
       <div class="form-group">
       <label>
-      number_plate:
+      no. plate:
         <input
           type="text"
           name="number_plate"
@@ -101,7 +101,7 @@ const handleSubmit = (event) => {
       <br />
       <div class="form-group">
       <label>
-      driver_name:
+      driver name:
         <input
           type="text"
           name="driver_name"
@@ -114,7 +114,7 @@ const handleSubmit = (event) => {
       <br />
       <div class="form-group">
       <label>
-      owner_id:
+      owner id:
         <input
           type="number"
           name="owner_id"
@@ -127,7 +127,7 @@ const handleSubmit = (event) => {
       <br />
       <div class="form-group">
       <label>
-      route:
+      initial  route:
         <input
           type="text"
           name="route"
@@ -140,7 +140,7 @@ const handleSubmit = (event) => {
       <br />
       <div class="form-group">
       <label>
-       driver_contact:
+       driver contact:
         <input
           type="number"
           name="driver_contact"
@@ -157,7 +157,3 @@ const handleSubmit = (event) => {
 }
 
 export default Form;
-
-
-
-
