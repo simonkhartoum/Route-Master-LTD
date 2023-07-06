@@ -4,13 +4,13 @@ import HomePage from './components/HomePage'
 import CarImage from './components/CarImage';
 import NavBar from './components/NavBar';
 import FormTable from './components/Admin';
+import './App.css';
 import Login from "./components/Login";
 
 function App  ()  {
   const [user, setUser] = useState(null);
 
   useEffect(() => {
-    // auto-login
     fetch("/me").then((r) => {
       if (r.ok) {
         r.json().then((user) => setUser(user));
@@ -30,6 +30,7 @@ function App  ()  {
   </Routes>
   </BrowserRouter>
   </div>
+
   );
 };
 

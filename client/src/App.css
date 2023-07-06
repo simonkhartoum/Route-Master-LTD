@@ -1,0 +1,46 @@
+.card {
+    width: 200px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 5px 5px 5px 0; /* Reduced margin on the right */
+    text-align: center;
+  }
+  
+  .card h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-style: italic; /* Sets the font style to italic */
+    color: red; /* Sets the font color to red */
+  }
+  
+  .card p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 0;
+    font-style: italic; /* Sets the font style to italic */
+    color: red; /* Sets the font color to red */
+
+  }
+
+  .item-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start; /* Adjust alignment as needed */
+    margin-top: 20px;
+    margin-right: -5px; /* Compensate for the negative margin on .card */
+  }
+  
+  .card {
+    width:250px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+  }
+  
+  
