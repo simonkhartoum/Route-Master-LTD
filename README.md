@@ -1,24 +1,15 @@
-# README
+Project name
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Route-Master-LTD
 
-Things you may want to cover:
+Owners
 
-* Ruby version
+simon karuri, Erick Kariuki, Chris Kamau
 
-* System dependencies
+licence 
 
-* Configuration
+MIT License
 
-* Database creation
+App use 
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+First you will be asked to signup if you dont already have an account, if you do , you will login using your details, you will be taken to the homepage where you will find the welcome message, in the Drivers section , the driver can update the route they are plying to, in the admin section , the admin can perfom all the crud operations.
